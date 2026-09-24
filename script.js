@@ -137,15 +137,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const metaTitle = document.getElementById('meta-title');
     const metaDesc = document.getElementById('meta-desc');
     if (lang === 'ar') {
-      document.title =
-          'كلية الحكمة الجامعة - دليل قنوات التواصل والخدمات | Al-Hikma University College';
+      document.title = 'بوابة كلية الحكمة الجامعة الرقمية';
       if (metaDesc)
         metaDesc.setAttribute(
             'content',
             'الدليل الرسمي لقنوات التواصل الاجتماعي والخدمات الطلابية لكلية الحكمة الجامعة. تابع آخر الأخبار، خطوط النقل، والسكن الجامعي.');
     } else {
-      document.title =
-          'Al-Hikma University College - Socials & Services Directory';
+      document.title = 'Al-Hikma University Digital Portal';
       if (metaDesc)
         metaDesc.setAttribute(
             'content',
